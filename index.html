@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Nazmul Islam Nayeem – Network Engineer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&family=Source+Sans+3:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#FFFFFF;--alt:#F4F6F9;--ink:#0B1F3A;--text:#33435A;--mute:#66768C;--line:#DDE3EA;--accent:#14508C;--accent-ink:#FFFFFF;--ok:#1E8E5A;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);color-scheme:light}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0A1626;--alt:#0F2036;--ink:#F1F5FA;--text:#C3CFDD;--mute:#8CA0B6;--line:#233750;--accent:#6BA8E6;--accent-ink:#0A1626;--ok:#4CC38A;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#0A1626;--alt:#0F2036;--ink:#F1F5FA;--text:#C3CFDD;--mute:#8CA0B6;--line:#233750;--accent:#6BA8E6;--accent-ink:#0A1626;--ok:#4CC38A;color-scheme:dark}
+html{scroll-padding-top:calc(env(safe-area-inset-top,0px) + 64px);scroll-behavior:smooth}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font:17px/1.65 "Source Sans 3",system-ui,-apple-system,"Segoe UI",sans-serif;-webkit-text-size-adjust:100%}
+h1,h2,h3{font-family:Manrope,"Segoe UI",system-ui,sans-serif;color:var(--ink);margin:0;letter-spacing:-.01em}
+a{color:var(--accent)}
+:focus-visible{outline:3px solid var(--accent);outline-offset:3px;border-radius:4px}
+.wrap{max-width:1060px;margin:0 auto;padding:0 24px}
+nav{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);border-bottom:1px solid var(--line)}
+nav .wrap{display:flex;gap:26px;align-items:center;height:60px;overflow-x:auto;white-space:nowrap}
+nav b{font:700 17px Manrope,sans-serif;color:var(--ink);margin-right:auto}
+nav a{color:var(--text);text-decoration:none;font-size:15px;font-weight:500}
+nav a:hover{color:var(--accent)}
+.hero{display:grid;grid-template-columns:1fr 330px;gap:56px;align-items:center;padding:72px 0 68px}
+.status{display:inline-flex;align-items:center;gap:8px;font-size:14.5px;font-weight:600;color:var(--ok);margin-bottom:18px}
+.status:before{content:"";width:9px;height:9px;border-radius:50%;background:var(--ok)}
+h1{font-size:clamp(40px,6.2vw,64px);font-weight:800;line-height:1.04}
+.role{font:600 clamp(19px,2.6vw,24px)/1.3 Manrope,sans-serif;color:var(--accent);margin:12px 0 20px}
+.lead{max-width:36em;font-size:19px;margin:0 0 30px}
+.btns{display:flex;flex-wrap:wrap;gap:12px}
+.btn{display:inline-block;padding:12px 22px;border-radius:6px;font-weight:600;font-size:16px;text-decoration:none;border:1.5px solid var(--line);color:var(--ink);background:var(--bg)}
+.btn:hover{border-color:var(--accent)}
+.btn.main{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
+.card{border:1px solid var(--line);border-radius:10px;background:var(--bg);overflow:hidden}
+.photo{aspect-ratio:1/1;background:var(--alt);display:grid;place-items:center;text-align:center;color:var(--mute);font-size:15px;padding:16px;border-bottom:1px solid var(--line);overflow:hidden}
+.photo img{width:100%;height:100%;object-fit:cover}
+.facts{margin:0;padding:6px 20px 8px}
+.facts div{display:flex;justify-content:space-between;gap:16px;padding:10px 0;border-bottom:1px solid var(--line);font-size:15px}
+.facts div:last-child{border:0}
+.facts dt{color:var(--mute)}.facts dd{margin:0;color:var(--ink);font-weight:600;text-align:right}
+section{padding:68px 0;border-top:1px solid var(--line)}
+section.alt{background:var(--alt)}
+.row{display:grid;grid-template-columns:220px 1fr;gap:40px}
+h2{font-size:26px;font-weight:700}
+.row>h2{position:sticky;top:90px;align-self:start}
+.about p{margin:0 0 16px;max-width:40em;font-size:18px}
+.job{display:grid;grid-template-columns:150px 1fr;gap:20px;padding:0 0 32px;margin-bottom:32px;border-bottom:1px solid var(--line)}
+.job:last-child{border:0;margin:0;padding:0}
+.job time{color:var(--mute);font-size:15px;padding-top:4px}
+.job h3{font-size:20px;font-weight:700}
+.job .org{color:var(--accent);font-weight:600;margin:2px 0 10px}
+.job ul{margin:0;padding-left:20px;max-width:42em}.job li{margin-bottom:5px}
+.sk{border-top:1px solid var(--line)}
+.sk div{display:grid;grid-template-columns:170px 1fr;gap:20px;padding:15px 0;border-bottom:1px solid var(--line)}
+.sk h3{font-size:16px;font-weight:700}
+.sk p{margin:0}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:32px}
+.two h3{font-size:18px;margin-bottom:6px}
+.list{margin:0;padding:0;list-style:none;border-top:1px solid var(--line)}
+.list li{padding:11px 0;border-bottom:1px solid var(--line);color:var(--ink);font-weight:500}
+.list small{display:block;color:var(--mute);font-weight:400;font-size:14.5px}
+.proj{max-width:520px}
+.proj .photo{aspect-ratio:16/9;border:1px solid var(--line);border-radius:10px;margin-bottom:16px}
+.proj h3{font-size:20px;margin-bottom:6px}
+.contact a.big{font:700 clamp(22px,4.4vw,36px)/1.2 Manrope,sans-serif;word-break:break-all;text-decoration:none}
+.contact .btns{margin-top:22px}
+footer{border-top:1px solid var(--line);padding:26px 0 34px;color:var(--mute);font-size:14.5px}
+footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px}
+#bar{position:fixed;top:0;left:0;height:3px;width:100%;background:var(--accent);transform-origin:0 50%;transform:scaleX(0);z-index:10}
+.hero-bg{position:relative;overflow:hidden}
+#net{position:absolute;inset:0;width:100%;height:100%;display:block;-webkit-mask-image:linear-gradient(#000 55%,transparent);mask-image:linear-gradient(#000 55%,transparent)}
+.hero{position:relative;z-index:1}
+@keyframes up{from{opacity:0;transform:translateY(24px)}to{opacity:1;transform:none}}
+.hero>div>*,.hero .card{animation:up .85s cubic-bezier(.2,.7,.2,1) backwards}
+.hero>div>*:nth-child(1){animation-delay:.05s}.hero>div>*:nth-child(2){animation-delay:.15s}.hero>div>*:nth-child(3){animation-delay:.25s}.hero>div>*:nth-child(4){animation-delay:.35s}.hero>div>*:nth-child(5){animation-delay:.45s}.hero>div>*:nth-child(6){animation-delay:.55s}.hero .card{animation-delay:.4s}
+@keyframes pulse{from{box-shadow:0 0 0 0 rgba(30,142,90,.55)}to{box-shadow:0 0 0 10px rgba(30,142,90,0)}}
+.status:before{animation:pulse 2s infinite}
+.typed{font:600 18px Manrope,sans-serif;color:var(--ink);min-height:1.7em;margin:-8px 0 26px}
+.typed span{color:var(--mute);font-weight:500}
+.cur{display:inline-block;width:2px;height:1.1em;background:var(--accent);margin-left:2px;vertical-align:-3px;animation:blink 1s steps(1) infinite}
+@keyframes blink{50%{opacity:0}}
+.rv{opacity:0;transform:translateY(26px);transition:opacity .7s ease,transform .7s cubic-bezier(.2,.7,.2,1);transition-delay:var(--d,0s)}
+.rv.in{opacity:1;transform:none}
+.btn{transition:transform .2s,box-shadow .2s,border-color .2s}
+.btn:hover{transform:translateY(-2px);box-shadow:0 8px 18px rgba(11,31,58,.16)}
+.card{transition:transform .3s,box-shadow .3s}
+.card:hover{transform:translateY(-5px);box-shadow:0 14px 30px rgba(11,31,58,.16)}
+.sk div{transition:padding-left .25s}.sk div:hover{padding-left:12px}
+.list li{transition:padding-left .2s}.list li:hover{padding-left:8px}
+nav a{transition:color .2s,box-shadow .2s;padding:4px 0}
+nav a.on{color:var(--accent);box-shadow:inset 0 -2px 0 var(--accent)}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.rv{opacity:1;transform:none}}
+@media (max-width:820px){.hero{grid-template-columns:1fr;gap:36px;padding:44px 0 48px}.card{max-width:360px}.row{grid-template-columns:1fr;gap:22px}.row>h2{position:static}.job{grid-template-columns:1fr;gap:4px}.sk div{grid-template-columns:1fr;gap:4px}.two{grid-template-columns:1fr}section{padding:48px 0}}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<div id="bar"></div>
+<nav><div class="wrap"><b>Nazmul Islam Nayeem</b><a href="#about">About</a><a href="#experience">Experience</a><a href="#skills">Skills</a><a href="#education">Education</a><a href="#contact">Contact</a></div></nav>
+<main>
+<div class="hero-bg"><canvas id="net" aria-hidden="true"></canvas>
+<div class="wrap hero">
+ <div>
+  <div class="status">Open to network engineering roles</div>
+  <h1>Nazmul Islam Nayeem</h1>
+  <div class="role">Network Engineer, NOC and Network Security</div>
+  <p class="lead">I run day-to-day network operations at an ISP in Bangladesh, and I’m building a second specialty in ethical hacking and cybersecurity.</p>
+  <div class="typed" aria-hidden="true"><span>Right now:</span> <b id="ty"></b><i class="cur"></i></div>
+  <div class="btns"><a class="btn main" href="mailto:nazmul.in2040@gmail.com">Get in touch</a><a class="btn" href="https://www.linkedin.com/in/nazmulin12035" rel="noopener">LinkedIn</a><a class="btn" href="https://github.com/nazmulislamnayeem" rel="noopener">GitHub</a></div>
+ </div>
+ <aside class="card" aria-label="Profile summary">
+  <div class="photo" id="portrait">Your photo goes here</div>
+  <dl class="facts">
+   <div><dt>Current role</dt><dd>Network Engineer</dd></div>
+   <div><dt>Company</dt><dd>Dot Internet</dd></div>
+   <div><dt>Location</dt><dd>Dhaka, Bangladesh</dd></div>
+   <div><dt>Studying</dt><dd>BS Computer Science</dd></div>
+  </dl>
+ </aside>
+</div></div>
+
+<section id="about" class="alt"><div class="wrap row"><h2>About</h2>
+ <div class="about">
+  <p>I work in the Network Operations Center of an ISP, where I monitor network health, trace faults and keep customers connected. My foundation is IP addressing and subnetting, IPv6, packet switching and VPN technologies.</p>
+  <p>Alongside my job I train in security: penetration testing, OSINT, digital forensics and red teaming on Kali Linux. Knowing how a network can be attacked makes me better at keeping one reliable.</p>
+  <p>I’m based in Savar, Dhaka, and looking for roles in network engineering, NOC operations and network security.</p>
+ </div></div></section>
+
+<section id="experience"><div class="wrap row"><h2>Experience</h2>
+ <div>
+  <div class="job"><time>Aug 2025 to present</time><div><h3>Network Engineer</h3><div class="org">Dot Internet (ISP), Network Operations Center</div>
+   <ul><li>Monitor network health and respond to incidents that affect customers.</li><li>Troubleshoot connectivity, routing and link problems to protect uptime.</li><li>Work with VPN technologies in a live ISP environment.</li><li>Coordinate with field and support teams to resolve faults.</li></ul></div></div>
+  <div class="job"><time>Oct 2025 to present</time><div><h3>Ambassador</h3><div class="org">University of the People</div>
+   <ul><li>Represent the university and guide prospective students toward online higher education.</li></ul></div></div>
+  <div class="job"><time>Jul to Aug 2025</time><div><h3>Cybersecurity Intern</h3><div class="org">CodeAlpha (remote)</div>
+   <ul><li>Completed hands-on security tasks and projects in a structured internship.</li><li>Applied ethical hacking techniques in practical exercises.</li></ul></div></div>
+  <div class="job"><time>Feb to Aug 2025</time><div><h3>Ethical Hacking Bootcamp</h3><div class="org">Byte Capsule</div>
+   <ul><li>Seven months of training in penetration testing methodology and security tools.</li><li>Practiced vulnerability assessment and reconnaissance in lab environments.</li></ul></div></div>
+ </div></div></section>
+
+<section id="skills" class="alt"><div class="wrap row"><h2>Skills</h2>
+ <div class="sk">
+  <div><h3>Networking</h3><p>IP addressing and subnetting, IPv6, packet switching, VPN technologies, CCNA concepts, NOC operations</p></div>
+  <div><h3>Security</h3><p>Kali Linux, penetration testing, OSINT, digital forensics, red teaming, information security</p></div>
+  <div><h3>Programming</h3><p>C, Python, Bash scripting, HTML and CSS (basic)</p></div>
+  <div><h3>Systems and tools</h3><p>Linux, Windows, Microsoft Excel, Word and PowerPoint, Canva</p></div>
+  <div><h3>Languages</h3><p>Bangla (fluent), English (working), Hindi (speaking and listening)</p></div>
+ </div></div></section>
+
+<section id="projects"><div class="wrap row"><h2>Projects</h2>
+ <div class="proj"><div class="photo">Project screenshot goes here</div><h3>High School Marksheet Database</h3><p style="margin:0">A database for storing and managing student marksheet records for a high school.</p></div>
+</div></section>
+
+<section id="education" class="alt"><div class="wrap row"><h2>Education and certifications</h2>
+ <div class="two">
+  <div><h3>Education</h3><ul class="list">
+   <li>BS, Computer Science<small>University of the People, 2025 to present</small></li>
+   <li>Professional Bachelor, Computer Science and Engineering<small>AIICT, National University, 2023 to 2025</small></li>
+   <li>HSC (GPA 5.00) and SSC (GPA 4.72)<small>BAF Shaheen College Kurmitola</small></li></ul></div>
+  <div><h3>Certifications</h3><ul class="list">
+   <li>Responsible Red Teaming</li><li>Advent of Cyber 2025</li><li>Introduction to Kali Linux Basics</li><li>IP Addressing and Subnetting: Zero to Hero</li><li>Penetration Testing and Ethical Hacking<small>Cybrary</small></li><li>Mastery on Kali Linux<small>Udemy</small></li></ul></div>
+ </div></div></section>
+
+<section id="contact" class="contact"><div class="wrap row"><h2>Contact</h2>
+ <div><a class="big" href="mailto:nazmul.in2040@gmail.com">nazmul.in2040@gmail.com</a>
+ <div class="btns"><a class="btn" href="https://www.linkedin.com/in/nazmulin12035" rel="noopener">LinkedIn</a><a class="btn" href="https://github.com/nazmulislamnayeem" rel="noopener">GitHub</a></div>
+ <p style="margin:22px 0 0;color:var(--mute)">Savar, Dhaka, Bangladesh</p></div>
+</div></section>
+</main>
+<footer><div class="wrap"><span>© 2026 Nazmul Islam Nayeem</span><span>Network Engineer</span></div></footer>
+<script>
+(function(){
+var rm=matchMedia("(prefers-reduced-motion: reduce)").matches;
+var bar=document.getElementById("bar");
+function onScroll(){var m=document.documentElement.scrollHeight-innerHeight;bar.style.transform="scaleX("+(m>0?scrollY/m:0)+")"}
+addEventListener("scroll",onScroll,{passive:true});onScroll();
+var links=[].slice.call(document.querySelectorAll("nav a"));
+var so=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){links.forEach(function(a){a.classList.toggle("on",a.getAttribute("href")==="#"+e.target.id)})}})},{rootMargin:"-45% 0px -50% 0px"});
+links.forEach(function(a){var s=document.querySelector(a.getAttribute("href"));if(s)so.observe(s)});
+var items=document.querySelectorAll(".job,.sk div,.list li,.proj,.about p,.contact .big,.contact .btns,.row>h2");
+if(!rm&&"IntersectionObserver" in window){var ro=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add("in");ro.unobserve(e.target)}})},{threshold:.12});
+items.forEach(function(el,i){el.classList.add("rv");el.style.setProperty("--d",(i%4)*.08+"s");ro.observe(el)})}
+var ty=document.getElementById("ty"),ph=["monitoring ISP networks.","troubleshooting live network faults.","studying penetration testing.","building secure, reliable infrastructure."],pi=0,ci=0,del=false;
+if(rm){ty.textContent=ph[0]}else{(function tick(){var p=ph[pi];ci+=del?-1:1;ty.textContent=p.slice(0,ci);var t=del?28:55;if(!del&&ci===p.length){del=true;t=1600}else if(del&&ci===0){del=false;pi=(pi+1)%ph.length;t=350}setTimeout(tick,t)})()}
+var cv=document.getElementById("net"),cx=cv.getContext("2d"),W,Hh,pts=[],mx=-999,my=-999,dpr=Math.min(devicePixelRatio||1,2);
+function size(){var r=cv.parentNode.getBoundingClientRect();W=r.width;Hh=r.height;cv.width=W*dpr;cv.height=Hh*dpr;cx.setTransform(dpr,0,0,dpr,0,0);var n=Math.round(Math.min(70,W*Hh/14000));pts=[];for(var i=0;i<n;i++)pts.push({x:Math.random()*W,y:Math.random()*Hh,vx:(Math.random()-.5)*.35,vy:(Math.random()-.5)*.35})}
+function draw(step){var c=getComputedStyle(document.documentElement).getPropertyValue("--accent").trim();cx.clearRect(0,0,W,Hh);
+for(var i=0;i<pts.length;i++){var p=pts[i];if(step){p.x+=p.vx;p.y+=p.vy;if(p.x<0||p.x>W)p.vx*=-1;if(p.y<0||p.y>Hh)p.vy*=-1}
+for(var j=i+1;j<pts.length;j++){var q=pts[j],dx=p.x-q.x,dy=p.y-q.y,d=Math.sqrt(dx*dx+dy*dy);if(d<130){cx.globalAlpha=(1-d/130)*.28;cx.strokeStyle=c;cx.lineWidth=1;cx.beginPath();cx.moveTo(p.x,p.y);cx.lineTo(q.x,q.y);cx.stroke()}}
+var md=Math.hypot(p.x-mx,p.y-my);if(md<150){cx.globalAlpha=(1-md/150)*.5;cx.strokeStyle=c;cx.beginPath();cx.moveTo(p.x,p.y);cx.lineTo(mx,my);cx.stroke()}
+cx.globalAlpha=.55;cx.fillStyle=c;cx.beginPath();cx.arc(p.x,p.y,2.2,0,6.283);cx.fill()}
+cx.globalAlpha=1}
+size();draw(false);addEventListener("resize",function(){size();draw(false)});
+if(!rm){var vis=true;new IntersectionObserver(function(e){vis=e[0].isIntersecting}).observe(cv);
+cv.parentNode.addEventListener("pointermove",function(e){var r=cv.getBoundingClientRect();mx=e.clientX-r.left;my=e.clientY-r.top});
+cv.parentNode.addEventListener("pointerleave",function(){mx=my=-999});
+(function loop(){if(vis)draw(true);requestAnimationFrame(loop)})()}
+})();
+</script>
+</body>
+</html>
